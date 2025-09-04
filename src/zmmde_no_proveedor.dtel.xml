@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_NO_PROVEEDOR</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>No Proveedor SAP</DDTEXT>
+    <REPTEXT>No. Proveedor</REPTEXT>
+    <SCRTEXT_S># Provdr</SCRTEXT_S>
+    <SCRTEXT_M>No. Proveedor</SCRTEXT_M>
+    <SCRTEXT_L>Número de proveedor</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000014</LENG>
+    <OUTPUTLEN>000014</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

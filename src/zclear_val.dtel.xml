@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCLEAR_VAL</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>26</SCRLEN3>
+    <DDTEXT>Valor de compensación en cuenta EM/RF en moneda local</DDTEXT>
+    <REPTEXT>Val.comp.EM/RF en ML</REPTEXT>
+    <SCRTEXT_S>Comp.EM/RF</SCRTEXT_S>
+    <SCRTEXT_M>Val.comp.EM/RF</SCRTEXT_M>
+    <SCRTEXT_L>Val.comp EM/RF en ML</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>CL_VAL_LOC</DEFFDNAME>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000011</LENG>
+    <DECIMALS>000002</DECIMALS>
+    <OUTPUTLEN>000014</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ausgleichswert auf dem WE/RE-Konto in Hauswährung</DDTEXT>
+     <REPTEXT>Val.comp EM/RF en ML</REPTEXT>
+     <SCRTEXT_S>Comp.EM/RF</SCRTEXT_S>
+     <SCRTEXT_M>Val.comp EM/RF en ML</SCRTEXT_M>
+     <SCRTEXT_L>Val.comp EM/RF en ML</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>GR/IR account clearing value in local currency</DDTEXT>
+     <REPTEXT>GR/IR clearing value in LC</REPTEXT>
+     <SCRTEXT_S>GR/IR clr.</SCRTEXT_S>
+     <SCRTEXT_M>GR/IR clr.value</SCRTEXT_M>
+     <SCRTEXT_L>GR/IR clearing value in LC</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZCLEAR_VAL</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCLEAR_VAL</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/*</TDFORMAT>
+       <TDLINE>Nick: entspricht AREWR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Gibt den Betrag an, der beim Buchen der Rechnung auf das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>WE/RE-Verrechnungskonto gebucht worden ist.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZCLEAR_VAL</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCLEAR_VAL</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/*</TDFORMAT>
+       <TDLINE>Translation: see AREWR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Specifies the amount posted to the GR/IR clearing account when the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>invoice is posted.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZCLEAR_VAL</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCLEAR_VAL</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/*</TDFORMAT>
+       <TDLINE>Véase AREWR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Indica el importe que se contabilizó al hacer el cálculo sobre la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cuenta de compensación EM/RF.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_MEINS</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Unidad de medida base</DDTEXT>
+    <REPTEXT>Unidad de medida base</REPTEXT>
+    <SCRTEXT_S>unid. base</SCRTEXT_S>
+    <SCRTEXT_M>Unidad de medida bas</SCRTEXT_M>
+    <SCRTEXT_L>Unidad de medida base</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>UNIT</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

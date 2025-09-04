@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_MOTIVO_01</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZMMDM_MOTIVO</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Solicitud de Direccion General</DDTEXT>
+    <REPTEXT>Solicitud de Direccion General</REPTEXT>
+    <SCRTEXT_S>Sol. Direc</SCRTEXT_S>
+    <SCRTEXT_M>Solicitud Dir. Gen</SCRTEXT_M>
+    <SCRTEXT_L>Solicitud de Direccion General</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

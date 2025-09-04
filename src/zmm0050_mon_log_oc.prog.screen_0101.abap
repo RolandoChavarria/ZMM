@@ -1,0 +1,5 @@
+PROCESS BEFORE OUTPUT.
+* MODULE STATUS_0101. "Subscreens no llevan dynpro
+*
+PROCESS AFTER INPUT.
+ MODULE USER_COMMAND_0101."Para cachar el OK_CODE de boton

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG para exit de pedidos MM-PS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMMGF_EXIT_POTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMMGF_EXIT_PO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMMFM_EXIT13_LBL_PO</FUNCNAME>
+     <UPDATE_TASK>2</UPDATE_TASK>
+     <SHORT_TEXT>Etiquetar pedidos MM-PS</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_EBELN</PARAMETER>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VERKF</PARAMETER>
+       <TYP>VERKF</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_EBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número del documento de compras</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VERKF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vendedor responsable para información aclaratoria</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

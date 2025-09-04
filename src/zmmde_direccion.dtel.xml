@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_DIRECCION</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>24</SCRLEN3>
+    <DDTEXT>Dirección  del proveedor</DDTEXT>
+    <REPTEXT>Direccion del Prov.</REPTEXT>
+    <SCRTEXT_S>Direc Prov</SCRTEXT_S>
+    <SCRTEXT_M>Dirección  del prov.</SCRTEXT_M>
+    <SCRTEXT_L>Dirección  del proveedor</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000100</LENG>
+    <OUTPUTLEN>000100</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

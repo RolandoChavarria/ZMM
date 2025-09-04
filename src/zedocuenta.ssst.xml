@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SSST" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEADER>
+    <STYLENAME>ZEDOCUENTA</STYLENAME>
+    <MASTERLANG>S</MASTERLANG>
+    <LANGU>S</LANGU>
+    <CAPTION>Estilos ZEDOCUENTA</CAPTION>
+    <V_CAPTION>Estilos ZEDOCUENTA</V_CAPTION>
+    <TDFIRSTPAR>Z1</TDFIRSTPAR>
+    <CPI>11.0</CPI>
+    <LPI>8.0</LPI>
+    <TDTABDIST>1.0</TDTABDIST>
+    <TDTABDISTU>CM</TDTABDISTU>
+    <ACTIVE>A</ACTIVE>
+    <TDFAMILY>TIMES</TDFAMILY>
+    <TDHEIGHT>100</TDHEIGHT>
+   </HEADER>
+   <SSFPARAS>
+    <SSFPARAS>
+     <ACTIVE>A</ACTIVE>
+     <STYLENAME>ZEDOCUENTA</STYLENAME>
+     <TDPARGRAPH>Z1</TDPARGRAPH>
+     <TDPJUSTIFY>LEFT</TDPJUSTIFY>
+     <TDPLDIST>1.0</TDPLDIST>
+     <TDPLDISTU>LN</TDPLDISTU>
+     <TDPTOPU>CM</TDPTOPU>
+     <TDPBOTU>CM</TDPBOTU>
+     <TDPLEFTU>CM</TDPLEFTU>
+     <TDPRIGHTU>CM</TDPRIGHTU>
+     <TDPENTRYU>CM</TDPENTRYU>
+     <TDFAMILY>TIMES</TDFAMILY>
+     <TDHEIGHT>100</TDHEIGHT>
+     <TDBOLD>*</TDBOLD>
+     <TDITALIC>*</TDITALIC>
+     <TDUNDERLIN>*</TDUNDERLIN>
+     <LANGU>S</LANGU>
+     <CAPTION>Formato de estado de cuenta</CAPTION>
+    </SSFPARAS>
+   </SSFPARAS>
+   <SSFSTRINGS>
+    <SSFSTRINGS>
+     <ACTIVE>A</ACTIVE>
+     <STYLENAME>ZEDOCUENTA</STYLENAME>
+     <TDSTRING>Z1</TDSTRING>
+     <TDSUPER>*</TDSUPER>
+     <TDSUB>*</TDSUB>
+     <TDHIDDEN>*</TDHIDDEN>
+     <TDPROTLINE>*</TDPROTLINE>
+     <TDFAMILY>TIMES</TDFAMILY>
+     <TDHEIGHT>100</TDHEIGHT>
+     <TDBOLD>*</TDBOLD>
+     <TDITALIC>*</TDITALIC>
+     <TDUNDERLIN>*</TDUNDERLIN>
+     <LANGU>S</LANGU>
+     <CAPTION>Formato de estado de cuenta</CAPTION>
+    </SSFSTRINGS>
+   </SSFSTRINGS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

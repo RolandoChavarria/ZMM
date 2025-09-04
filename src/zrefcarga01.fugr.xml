@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Carga proy WEB</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZREFCARGA01TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZREFCARGA01</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZREFCARGA01</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Carga proyectos WEb</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_DATE</PARAMETER>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_SUBRC</PARAMETER>
+       <TYP>SUBRC</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_BAPI_MSG</PARAMETER>
+       <TYP>BAPI_MSG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PROY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZTWEB_PED</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fecha</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_SUBRC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Subrutina código return</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_BAPI_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Texto de mensaje</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_PROY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura pedidos WEB</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

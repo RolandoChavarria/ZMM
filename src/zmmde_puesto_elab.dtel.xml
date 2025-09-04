@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_PUESTO_ELAB</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>36</SCRLEN3>
+    <DDTEXT>Puesto de quien elaboro la solicitud</DDTEXT>
+    <REPTEXT>Puesto de quien Elaboro</REPTEXT>
+    <SCRTEXT_S>Puesto ela</SCRTEXT_S>
+    <SCRTEXT_M>Puesto  Elaboro</SCRTEXT_M>
+    <SCRTEXT_L>Puesto de quien elaboro la solicitud</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000040</LENG>
+    <OUTPUTLEN>000040</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

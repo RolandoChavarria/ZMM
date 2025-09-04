@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZESTATUS_LOG</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZMMDM_ESTATUS_LOG</DOMNAME>
+    <HEADLEN>37</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>37</SCRLEN3>
+    <DDTEXT>Estatus para Log de Ordenes de compra</DDTEXT>
+    <REPTEXT>Estatus para Log de Ordenes de compra</REPTEXT>
+    <SCRTEXT_S>Estatus</SCRTEXT_S>
+    <SCRTEXT_M>Estatus para Log</SCRTEXT_M>
+    <SCRTEXT_L>Estatus para Log de Ordenes de compra</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

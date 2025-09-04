@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_BSTMG</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Cantidad de pedido</DDTEXT>
+    <REPTEXT>Cantidad de pedido</REPTEXT>
+    <SCRTEXT_S>Cant. pdid</SCRTEXT_S>
+    <SCRTEXT_M>Cantidad de pedido</SCRTEXT_M>
+    <SCRTEXT_L>Cantidad de pedido</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>QUAN</DATATYPE>
+    <LENG>000013</LENG>
+    <DECIMALS>000003</DECIMALS>
+    <OUTPUTLEN>000017</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

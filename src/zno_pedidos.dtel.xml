@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZNO_PEDIDOS</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Numero de pedidos totales</DDTEXT>
+    <REPTEXT>Numero de pedidos totales</REPTEXT>
+    <SCRTEXT_S>Num. ped.t</SCRTEXT_S>
+    <SCRTEXT_M>Num. ped. totales</SCRTEXT_M>
+    <SCRTEXT_L>Numero de pedidos totales</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>INT4</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000011</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_EBELP</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>43</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Número de posición del documento de compras</DDTEXT>
+    <REPTEXT>Número de posición del documento de compras</REPTEXT>
+    <SCRTEXT_S>doc. comp.</SCRTEXT_S>
+    <SCRTEXT_M>Núm, pos. doc. comp.</SCRTEXT_M>
+    <SCRTEXT_L>Número de posición del documento de comp</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000005</LENG>
+    <OUTPUTLEN>000005</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

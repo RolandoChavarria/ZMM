@@ -1,0 +1,2 @@
+FUNCTION-POOL ZREFCARGA01.                  "MESSAGE-ID ..
+

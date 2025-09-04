@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMMDE_ACTIVO</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Identifica si está o no activo el proveedor(0,1)</DDTEXT>
+    <REPTEXT>identifica prov. Act.</REPTEXT>
+    <SCRTEXT_S>Id. Prov</SCRTEXT_S>
+    <SCRTEXT_M>Identifica Prov. Act</SCRTEXT_M>
+    <SCRTEXT_L>Identifica si está o no activo el provee</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
